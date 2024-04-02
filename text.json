@@ -1,0 +1,15 @@
+[
+    {
+        "text": "example text",
+        "responses": "2",
+        "response1": "response number 1",
+        "response2": "response number 2"
+    },
+    {
+        "text": "example text2",
+        "responses": "3",
+        "response1": "response number 1",
+        "response2": "response number 2",
+        "response3": "response number 3"
+    }
+]
