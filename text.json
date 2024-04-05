@@ -81,8 +81,122 @@
     ],
     "data9": [
         {
-            "text": "You decide to make your way toward the next room. As you get closer, you start to hear something. You hear shuffling in the distance.",
+            "text": "You decide to make your way toward the next room. As you get closer, you start to hear something. You hear shuffling in the distance. Should you investigate?",
             "responses": "2",
+            "response1Choice": "Get closer to investigate",
+            "response1": "You approach the noise, and as you get close, you hear hurried shuffling and a screeching noise before everything goes black.  You died.",
+            "response2Choice": "Absolutely not",
+            "response2": "The realization suddenly hits you that you are in a place of great possible dangers, and you need to be careful with every move you make."
+        }
+    ],
+    "data10": [
+        {
+            "text": "As you walk towards the next room, you spot something moving in the distance. You can only see an outline of something, but you can't figure out what it is. Should you investigate?",
+            "responses": "2",
+            "response1Choice": "Investigate the shadowy figure",
+            "response1": "From a distance, you investigate the figure. You look around for clues of what it may be. When looking for clues, you stumble upon a note.",
+            "response2Choice": "It's better to lay low for the time being",
+            "response2": "The realization suddenly hits you that you are in a place of great possible dangers, and you need to be careful with every move you make."
+        }
+    ],
+    "data11": [
+        {
+            "text": "Read the note?",
+            "responses": "2",
+            "response1Choice": "Read the note",
+            "response1": "You read the note. It is a journal entry of a scientist. It seems as though it was written in a sense of panic. Some of the words are smudged and unreadable.",
+            "response2Choice": "Don't read the note",
+            "response2": "You ignore the note. Suddenly you hear a screeching noise in the distance. Not wanting to investigate further, you decide to flee from the area."
+        }
+    ],
+    "data13": [
+        {
+            "text": "In the corner of your eye, you get a glimpse of the creature. It hasn't found you yet. You still have time to fix the communications blackout, but in the corner of the room you spot an escape pod. Should you escape or stay?",
+            "responses": "2",
+            "response1Choice": "Complete the task",
+            "response1": "Despite the danger, you continue with your task. The only problem is that the creature is on high alert. It seems to be patrolling the area. Suddenly the battery of your nightvision starts to beep. You are running out of time!",
+            "response2Choice": "Escape the station",
+            "response2": "You have escaped, but at what cost? You have not completed what you were supposed to do. You have failed the task. Once you get back to Earth, you are shot dead."
+        }
+    ],
+    "data14": [
+        {
+            "text": "You make it to a room with a sign that says communications. You can hear multiple creatures patrolling now. Your night vision shuts down. All you can see is a glowing monitor. It needs a password.",
+            "responses": "2",
+            "response1Choice": "I have already discovered a passcode.",
+            "response1": "You quickly enter the password. The computer unlocks, and you click on the first option you see, 'Communications'. On the screen, you see that the 'station to Earth communication line is offline.' You switch it to online. Communication from the station to Earth is enabled.",
+            "response2Choice": "I have not discovered a passcode",
+            "response2": "You continue to type in random characters in hope that something will happen. You can hear the creatures surrounding you. In defeat, you take your last breath."
+        }
+    ],
+    "data16": [
+        {
+            "text": "You have completed your task. You immediately receive a transmission in your helmet from mission control. They congratulate you on your job and thank you for the sacrifice you've made for the space agency. You continue to frantically send messages to the agency, but it is too late. You have been abandoned and left for dead. You got the bad ending."
+        }
+    ],
+    "data17": [
+        {
+            "text": "Move to the next room",
+            "responses": "2",
+            "response1Choice": "Yes",
+            "response1": "You make your way carefully into the next doorway you see.",
+            "response2Choice": "No",
+            "response2": "There is nothing left here to see."
+        }
+    ],
+    "data18": [
+        {
+            "text": "The next room is full of machines and electronics.  The sign on the door says 'Communications.' What should you do?",
+            "responses": "2",
+            "response1Choice": "Explore Room",
+            "response1": "The room is filled with rubble and debris, and the walls are lined with monitors, humming electrical equipment, and many panels full of switches and diagrams.",
+            "response2Choice": "Explore electronics",
+            "response2": "The electronic equipment lining the room is full of panels of switches, monitors, keyboards, buttons, diagrams, and server racks.  You notice one monitor specifically still functioning and on, with a keyboard in front of it."
+        }
+    ],
+    "data19": [
+        {
+            "text": "The electronic equipment lining the room is full of panels of switches, monitors, keyboards, buttons, diagrams, and server racks.  You notice one monitor specifically still functioning and on, with a keyboard in front of it."
+        }
+    ],
+    "data20": [
+        {
+            "text": "Investigate monitor?",
+            "responses": "2",
+            "response1Choice": "Yes",
+            "response1": "You approach the monitor.  It shows a blinking cursor and a login screen.",
+            "response2Choice": "No",
+            "response2": "You look around the room, but there is nothing else operational."
+        }
+    ],
+    "data21": [
+        {
+            "text": "You approach the monitor.  It shows a blinking cursor and a login screen."
+        }
+    ],
+    "data22": [
+        {
+            "text": "Note found?",
+            "responses": "2",
+            "response1Choice": "Yes",
+            "response2Choice": "No",
+            "response2": "It appears that you need a password to login."
+        }
+    ],
+    "data23": [
+        {
+            "text": "Attempt to hack the computer?",
+            "responses": "2",
+            "response1Choice": "Yes",
+            "response1": "You manage to hack into the computer and gain access.",
+            "response2Choice": "No",
+            "response2": "You remember your mission, and you realize just how close you are to finishing it."
+        }
+    ],
+    "data24": [
+        {
+            "text": "",
+            "responses": "",
             "response1Choice": "",
             "response1": "",
             "response2Choice": "",
