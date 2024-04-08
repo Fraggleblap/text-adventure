@@ -1,256 +1,238 @@
 {
-    "data1": 
-        {
-            "text": "It is a slow day at the workplace, not much is going on at the moment. You glance down at your desk, staring at the envelopes that are piled on your desk. Looking around, you notice that your desk is the most cluttered out of all of your colleagues'. Files upon files of identities of suspects and missing people lie there untouched. One case has always stood out to you, a case that involves people that you look to and have admired since you were a kid. Scientists. The fascination of astronomy and spacecrafts never died down, it only grew as the case grew cold. The room becomes eerily quiet, you realize you are the only one left in the room. After a few seconds of silence, the phone on your desk rings. What should you do?",
-            "responses": "2",
-            "response1Choice": "Answer phone",
-            "response1": "You answer the phone. The caller introduces himself as the founder of the space agency. He mentions that he is in a bit of a dilemma. Concerned, you ask about the details of the situation. You find out that a communications blackout has occurred and that he needs you to investigate the area. He says that he has gotten recommendations about you being one of the best detectives in your line of work. You consider the opportunity, but remain skeptical about the task. Should you go to the space station?",
-            "response2Choice": "Ignore it",
-            "response2": "The call goes to voicemail. You listen to the message that was sent to you. The caller introduces himself as the founder of the space agency. This peaks your interest. You listen as the founder explains his dilemma. A communications blackout has occurred, he wants you to investigate the surrounding area, after all, you are one of the best detectives in your field of work. There is just one thing, you cannot tell anyone about the task. As flattered as you are, you can't help but feel skeptical about the 'secret task'. At the end, he asks you to call him if you are up for the task. Should you call him back?"
-        },
-    
-    "data2": 
-        {
-            "text": "An opportunity arises",
-            "responses": "3",
-            "response1Choice": "Go to the space station",
-            "response1": "You choose to go to the space station despite your suspicions. You make your way to the launch site to investigate the communications blackout.",
-            "response2Choice": "Don't go to the space station",
-            "response2": "You choose to stay home instead of leaving and heading to the launch site, when the morning comes for your scheduled departure.  After several minutes, you hear a car outside, followed by a knock on your door.  Two men in suits are standing at your door, here to take you to the launch site.  They eventually convince you to join them, and you continue with the launch.",
-            "response3Choice": "Don't call the agency",
-            "response3": "Story ends and nothing special happens.  Boring ending"
-        }
-    ,
-    "data3": 
-        {
-            "text": "Now aboard the station, you find yourself in a pitch black area.  You were given a flashlight and night vision built into your space suit helmet, but they both use a percentage of your suit battery.",
-            "responses": "2",
-            "response1Choice": "Use flashlight",
-            "response1": "You decide to turn on your helmet flashlight, allowing you to see a moderately sized circle of light in front of you.  You can't see as much as with night vision, but your battery usage is less. Should you keep exploring this room or search for the next room?",
-            "response2Choice": "Use night vision",
-            "response2": "You decide to activate nightvision, allowing you to see your surroundings. The only problem is that night vision uses more battery than the flashlight. You look around the station, trying to find the cause of the blackout. Should you keep exploring this room or search for the next room?"
-        }
-    ,
-    "data4": 
-        {
-            "text": "Explore more or search for next room?",
-            "responses": "2",
-            "response1Choice": "Explore",
-            "response1": "You choose to further explore the room.",
-            "response2Choice": "Next room",
-            "response2": "You choose to move on to the next room."
-        }
-    ,
-    "data5": 
-        {
-            "responses": "2",
-            "response1": "You look around for a long while, taking in as much as you can with the relatively small area you can see bathed in light.  You eventually find a filing cabinet.  It looks to be in good condition, relative to the floating debris and poor condition of everything else around you.  The top drawer is smashed in and unopenable, but the bottom two drawers appear to be working fine.",
-            "response2": "You look around for a little while, keeping mental notes of things you deem to be somewhat important.  You eventually find a filing cabinet.  It looks to be in good condition, relative to the floating debris and poor condition of everything else around you.  The top drawer is smashed in and unopenable, but the bottom two drawers appear to be working fine."
-        }
-    ,
-    "data6": 
-        {
-            "text": "Open the drawers?",
-            "responses": "2",
-            "response1Choice": "Yes",
-            "response1": "You attempt to open each of the two bottom drawers.  The middle drawer is locked and won't open.  The bottom drawer opens easily, and contains a single piece of paper.  It appears to be a note, and in rather good condition.",
-            "response2Choice": "No",
-            "response2": "You dismiss the file cabinet as another piece of broken furniture and debris, to be forgotten and left behind."
-        }
-    ,
-    "data7": 
-        {
-            "text": "Read the note?",
-            "responses": "2",
-            "response1Choice": "Yes",
-            "response1": "You pick up the note and read it. The note is written by a former scientist named 'Theo' who worked aboard the station. The note is a journal entry of his first days aboard the station, and has an air of excitement in the way it's written.",
-            "response2Choice": "No",
-            "response2": "You ignore the note and close the filing cabinet.  There's no time for reading silly little notes when there's a much bigger job to be done."
-        }
-    ,
-    "data8": 
-        {
-            "text": "Continue exploring or move to next room?",
-            "responses": "2",
-            "response1Choice": "Continue exploring",
-            "response1": "You find nothing worthy of note in this area.",
-            "response2Choice": "Next room",
-            "response2": "You choose to move on to the next room."
-        }
-    ,
-    "data9": 
-        {
-            "text": "You decide to make your way toward the next room. As you get closer, you start to hear something. You hear shuffling in the distance. Should you investigate?",
-            "responses": "2",
-            "response1Choice": "Get closer to investigate",
-            "response1": "You approach the noise, and as you get close, you hear hurried shuffling and a screeching noise before everything goes black.  You died.",
-            "response2Choice": "Absolutely not",
-            "response2": "The realization suddenly hits you that you are in a place of great possible dangers, and you need to be careful with every move you make."
-        }
-    ,
-    "data10": 
-        {
-            "text": "As you walk towards the next room, you spot something moving in the distance. You can only see an outline of something, but you can't figure out what it is. Should you investigate?",
-            "responses": "2",
-            "response1Choice": "Investigate the shadowy figure",
-            "response1": "From a distance, you investigate the figure. You look around for clues of what it may be. When looking for clues, you stumble upon a note.",
-            "response2Choice": "It's better to lay low for the time being",
-            "response2": "The realization suddenly hits you that you are in a place of great possible dangers, and you need to be careful with every move you make."
-        }
-    ,
-    "data11": 
-        {
-            "text": "Read the note?",
-            "responses": "2",
-            "response1Choice": "Read the note",
-            "response1": "You read the note. It is a journal entry of a scientist. It seems as though it was written in a sense of panic. Some of the words are smudged and unreadable.",
-            "response2Choice": "Don't read the note",
-            "response2": "You ignore the note. Suddenly you hear a screeching noise in the distance. Not wanting to investigate further, you decide to flee from the area."
-        }
-    ,
-    "data13": 
-        {
-            "text": "In the corner of your eye, you get a glimpse of the creature. It hasn't found you yet. You still have time to fix the communications blackout, but in the corner of the room you spot an escape pod. Should you escape or stay?",
-            "responses": "2",
-            "response1Choice": "Complete the task",
-            "response1": "Despite the danger, you continue with your task. The only problem is that the creature is on high alert. It seems to be patrolling the area. Suddenly the battery of your nightvision starts to beep. You are running out of time!",
-            "response2Choice": "Escape the station",
-            "response2": "You have escaped, but at what cost? You have not completed what you were supposed to do. You have failed the task. Once you get back to Earth, you are shot dead."
-        }
-    ,
-    "data14": 
-        {
-            "text": "You make it to a room with a sign that says communications. You can hear multiple creatures patrolling now. Your night vision shuts down. All you can see is a glowing monitor. It needs a password.",
-            "responses": "2",
-            "response1Choice": "I have already discovered a passcode.",
-            "response1": "You quickly enter the password. The computer unlocks, and you click on the first option you see, 'Communications'. On the screen, you see that the 'station to Earth communication line is offline.' You switch it to online. Communication from the station to Earth is enabled.",
-            "response2Choice": "I have not discovered a passcode",
-            "response2": "You continue to type in random characters in hope that something will happen. You can hear the creatures surrounding you. In defeat, you take your last breath."
-        }
-    ,
-    "data16": 
-        {
-            "text": "You have completed your task. You immediately receive a transmission in your helmet from mission control. They congratulate you on your job and thank you for the sacrifice you've made for the space agency. You continue to frantically send messages to the agency, but it is too late. You have been abandoned and left for dead. You got the bad ending."
-        }
-    ,
-    "data17": 
-        {
-            "text": "Move to the next room",
-            "responses": "2",
-            "response1Choice": "Yes",
-            "response1": "You make your way carefully into the next doorway you see.",
-            "response2Choice": "No",
-            "response2": "There is nothing left here to see."
-        }
-    ,
-    "data18": 
-        {
-            "text": "The next room is full of machines and electronics.  The sign on the door says 'Communications.' What should you do?",
-            "responses": "2",
-            "response1Choice": "Explore Room",
-            "response1": "The room is filled with rubble and debris, and the walls are lined with monitors, humming electrical equipment, and many panels full of switches and diagrams.",
-            "response2Choice": "Explore electronics",
-            "response2": "The electronic equipment lining the room is full of panels of switches, monitors, keyboards, buttons, diagrams, and server racks.  You notice one monitor specifically still functioning and on, with a keyboard in front of it."
-        }
-    ,
-    "data19": 
-        {
-            "text": "The electronic equipment lining the room is full of panels of switches, monitors, keyboards, buttons, diagrams, and server racks.  You notice one monitor specifically still functioning and on, with a keyboard in front of it."
-        }
-    ,
-    "data20": 
-        {
-            "text": "Investigate monitor?",
-            "responses": "2",
-            "response1Choice": "Yes",
-            "response1": "You approach the monitor.  It shows a blinking cursor and a login screen.",
-            "response2Choice": "No",
-            "response2": "You look around the room, but there is nothing else operational."
-        }
-    ,
-    "data21": 
-        {
-            "text": "You approach the monitor.  It shows a blinking cursor and a login screen."
-        }
-    ,
-    "data22": 
-        {
-            "text": "Note found?",
-            "responses": "2",
-            "response1Choice": "Yes",
-            "response2Choice": "No",
-            "response2": "It appears that you need a password to login."
-        }
-    ,
-    "data23": 
-        {
-            "text": "Attempt to hack the computer?",
-            "responses": "2",
-            "response1Choice": "Yes",
-            "response1": "You manage to hack into the computer and gain access.",
-            "response2Choice": "No",
-            "response2": "You remember your mission, and you realize just how close you are to finishing it."
-        }
-    ,
-    "data24": 
-        {
-            "text": "Input passwors?",
-            "responses": "2",
-            "response1Choice": "Yes",
-            "response1": "The computer unlocks, and shows the desktop.  There are only a few applications visible.  There is 'Security Systems', 'Communications Systems', 'Electrical Systems', and 'Habitation Systems.'",
-            "response2Choice": "No",
-            "response2": "You do not input the password."
-        }
-    ,
-    "data25": 
-        {
-            "text": "Open Application",
-            "responses": "4",
-            "response1Choice": "Electrical Systems",
-            "response1": "You open the electrical systems, and it gives a menu with many options.  Most are grayed out, but the ones you can toggle are labeled 'Full system power', 'Necessary system power', and 'No system power'.",
-            "response2Choice": "Habitation Systems",
-            "response2": "You open the habitation systems, and it displays a top-down diagram of the current level on the station, and all rooms within.  There is an option to enable or disable habitation systems on the top of the menu.",
-            "response3Choice": "Security Systems",
-            "response3": "You open the security systems, and it gives a menu with many different options and sections of the station labeled, as well as a CCTV camera view box, but it is currently filled with static and a large 'OFFLINE' label.",
-            "response4Choice": "Communications Systems",
-            "response4": "You open the communications systems, and a display showing several points on a diagram of the station opens.  Each point has a green or red label next to it, saying 'Online' or 'Offline', respectively.  The left side of the menu has several options."
-        }
-    ,
-    "data26": 
-        {
-            "text": "Which option should you choose from the menu?",
-            "responses": "3",
-            "response1Choice": "Full System Power",
-            "response1": "Full system power is already selected",
-            "response2Choice": "Necessary System Power",
-            "response2": "You select 'Necessary system power' and hear a large clanging somewhere distant in the station, followed by a loud roar.",
-            "response3Choice": "No System Power",
-            "response3": "You select 'No system power' and hear a loud clanging sound, before all the lights and electronics go dark.  All humming stops and you find yourself in pitch black darkness.  You turned off full station power.  You are abandoned on the station with no hope of getting back home."
-        }
-    ,
-    "data27": 
-        {
-            "text": "Disable habitation systems",
-            "responses": "1",
-            "response1": "You disable the habitation systems on the station, and you hear a loud explosion and everything begins shaking.  The ceiling, floor, and walls all suddenly collapse at lightning speed on you.  You died from rapid station decompression."
-        }
-    ,
-    "data28": 
-        {
-            "text": "Interact with Systems",
-            "responses": "1",
-            "response1": "Red text appears across the center of the screen, stating 'THIS DEVICE DOES NOT HAVE SECURITY CLEARANCE'."
-        }
-    ,
-    "data29": 
-        {
-            "text": "Which option should you choose from the menu?",
-            "responses": "3",
-            "response1Choice": "Local Station Communication Line",
-            "response1": "You enable the local station communication line.  Nothing seems to happen or change on the monitor.  Near you, a wired phone light turns on, signaling that it's operational.",
-            "response2Choice": "Data Relay Network",
-            "response2": "You enable the station's data relay network.  You select the 'enable' option, however red text appears on the center of the screen, stating 'DATA RELAY NETWORK OFFLINE'.",
-            "response3Choice": "Station to Earth Communication Line",
-            "response3": "You enable station to earth communications, and you see several points on the station diagram change to a green 'Online' status.  Almost immediately, you get a transmission in your helmet from mission control.  They congratulate you on your job, and state that they have regained communications with the station and data is being uploaded to station software in an attempt to reboot the system and take back control.  You are informed that a shuttle is in route and will arrive to bring you home soon.  Congratulations, you got the good ending."
-        }
+    "data1": {
+        "text": "It is a slow day at the workplace, not much is going on at the moment. You glance down at your desk, staring at the envelopes that are piled on your desk. Looking around, you notice that your desk is the most cluttered out of all of your colleagues'. Files upon files of identities of suspects and missing people lie there untouched. One case has always stood out to you, a case that involves people that you look to and have admired since you were a kid. Scientists. The fascination of astronomy and spacecrafts never died down, it only grew as the case grew cold. The room becomes eerily quiet, you realize you are the only one left in the room. After a few seconds of silence, the phone on your desk rings. What should you do?",
+        "responses": 2,
+        "response1Choice": "Answer the phone",
+        "response1": "You answer the phone. The caller introduces himself as the founder of the space agency. He mentions that he is in a bit of a dilemma. Concerned, you ask about the details of the situation. You find out that a communications blackout has occurred and that he needs you to investigate the area. He says that he has gotten recommendations about you being one of the best detectives in your line of work. You consider the opportunity, but remain skeptical about the task. Should you go to the space station?",
+        "response2Choice": "Ignore it",
+        "response2": "The call goes to voicemail. You listen to the message that was sent to you. The caller introduces himself as the founder of the space agency. This peaks your interest. You listen as the founder explains his dilemma. A communications blackout has occurred, he wants you to investigate the surrounding area, after all, you are one of the best detectives in your field of work. There is just one thing, you cannot tell anyone about the task. As flattered as you are, you can't help but feel skeptical about the 'secret task'. At the end, he asks you to call him if you are up for the task.",
+        "goTo": "data2"
+    },
+    "data2": {
+        "text": "An opportunity arises",
+        "responses": 3,
+        "response1Choice": "Go to the space station",
+        "response1": "You choose to go to the space station despite your suspicions. You make your way to the launch site to investigate the communications blackout.",
+        "response2Choice": "Don't go to the space station",
+        "response2": "You choose to stay home instead of leaving and heading to the launch site, when the morning comes for your scheduled departure.  After several minutes, you hear a car outside, followed by a knock on your door.  Two men in suits are standing at your door, here to take you to the launch site.  They eventually convince you to join them, and you continue with the launch.",
+        "goTo": "data3",
+        "response3Choice": "Don't call the agency",
+        "response3": "Story ends and nothing special happens.  Boring ending"
+    },
+    "data3": {
+        "text": "Now aboard the station, you find yourself in a pitch black area.  You were given a flashlight and night vision built into your space suit helmet, but they both use a percentage of your suit battery.",
+        "responses": 2,
+        "response1Choice": "Use flashlight",
+        "response1": "You decide to turn on your helmet flashlight, allowing you to see a moderately sized circle of light in front of you.  You can't see as much as with night vision, but your battery usage is less. Should you keep exploring this room or search for the next room?",
+        "response2Choice": "Use night vision",
+        "response2": "You decide to activate nightvision, allowing you to see your surroundings. The only problem is that night vision uses more battery than the flashlight. You look around the station, trying to find the cause of the blackout. Should you keep exploring this room or search for the next room?",
+        "goTo": "data4"
+    },
+    "data4": {
+        "text": "Explore more or search for next room?",
+        "responses": 2,
+        "response1Choice": "Explore",
+        "response1": "You choose to further explore the room.",
+        "goTo1": "data5",
+        "response2Choice": "Next room",
+        "response2": "You choose to move on to the next room.",
+        "goTo2": "data9"
+    },
+    "data5": {
+        "responses": 2,
+        "response1": "You look around for a long while, taking in as much as you can with the relatively small area you can see bathed in light.  You eventually find a filing cabinet.  It looks to be in good condition, relative to the floating debris and poor condition of everything else around you.  The top drawer is smashed in and unopenable, but the bottom two drawers appear to be working fine.",
+        "response2": "You look around for a little while, keeping mental notes of things you deem to be somewhat important.  You eventually find a filing cabinet.  It looks to be in good condition, relative to the floating debris and poor condition of everything else around you.  The top drawer is smashed in and unopenable, but the bottom two drawers appear to be working fine.",
+        "goTo": "data6"
+    },
+    "data6": {
+        "text": "Open the drawers?",
+        "responses": 2,
+        "response1Choice": "Yes",
+        "response1": "You attempt to open each of the two bottom drawers.  The middle drawer is locked and won't open.  The bottom drawer opens easily, and contains a single piece of paper.  It appears to be a note, and in rather good condition.",
+        "goTo1": "data7",
+        "response2Choice": "No",
+        "response2": "You dismiss the file cabinet as another piece of broken furniture and debris, to be forgotten and left behind.",
+        "goTo2": "data8"
+    },
+    "data7": {
+        "text": "Read the note?",
+        "responses": 2,
+        "response1Choice": "Yes",
+        "response1": "You pick up the note and read it. The note is written by a former scientist named 'Theo' who worked aboard the station. The note is a journal entry of his first days aboard the station, and has an air of excitement in the way it's written.",
+        "response2Choice": "No",
+        "response2": "You ignore the note and close the filing cabinet.  There's no time for reading silly little notes when there's a much bigger job to be done.",
+        "goTo": "data8"
+    },
+    "data8": {
+        "text": "Continue exploring or move to next room?",
+        "responses": 2,
+        "response1Choice": "Continue exploring",
+        "response1": "You find nothing worthy of note in this area.",
+        "response2Choice": "Next room",
+        "response2": "You choose to move on to the next room.",
+        "goTo": "9"
+    },
+    "data9": {
+        "text": "You decide to make your way toward the next room. As you get closer, you start to hear something. You hear shuffling in the distance. Should you investigate?",
+        "responses": 2,
+        "response1Choice": "Get closer to investigate",
+        "response1": "You approach the noise, and as you get close, you hear hurried shuffling and a screeching noise before everything goes black.  You died.",
+        "response2Choice": "Absolutely not",
+        "response2": "The realization suddenly hits you that you are in a place of great possible dangers, and you need to be careful with every move you make.",
+        "goTo": "data17"
+    },
+    "data10": {
+        "text": "As you walk towards the next room, you spot something moving in the distance. You can only see an outline of something, but you can't figure out what it is. Should you investigate?",
+        "responses": 2,
+        "response1Choice": "Investigate the shadowy figure",
+        "response1": "From a distance, you investigate the figure. You look around for clues of what it may be. When looking for clues, you stumble upon a note.",
+        "goTo1": "data11",
+        "response2Choice": "It's better to lay low for the time being",
+        "response2": "The realization suddenly hits you that you are in a place of great possible dangers, and you need to be careful with every move you make.",
+        "goTo2": "data17"
+    },
+    "data11": {
+        "text": "Read the note?",
+        "responses": 2,
+        "response1Choice": "Read the note",
+        "response1": "You read the note. It is a journal entry of a scientist. It seems as though it was written in a sense of panic. Some of the words are smudged and unreadable. The realization suddenly hits you that you are in a place of great possible dangers, and you need to be careful with every move you make.",
+        "goTo1": "data17",
+        "response2Choice": "Don't read the note",
+        "response2": "You ignore the note. Suddenly you hear a screeching noise in the distance. Not wanting to investigate further, you decide to flee from the area.",
+        "goTo2": "data13"
+    },
+    "data13": {
+        "text": "In the corner of your eye, you get a glimpse of the creature. It hasn't found you yet. You still have time to fix the communications blackout, but in the corner of the room you spot an escape pod. Should you escape or stay?",
+        "responses": 2,
+        "response1Choice": "Complete the task",
+        "response1": "Despite the danger, you continue with your task. The only problem is that the creature is on high alert. It seems to be patrolling the area. Suddenly the battery of your nightvision starts to beep. You are running out of time!",
+        "goTo": "data14",
+        "response2Choice": "Escape the station",
+        "response2": "You have escaped, but at what cost? You have not completed what you were supposed to do. You have failed the task. Once you get back to Earth, you are shot dead."
+    },
+    "data14": {
+        "text": "You make it to a room with a sign that says communications. You can hear multiple creatures patrolling now. Your night vision shuts down. All you can see is a glowing monitor. It needs a password.",
+        "responses": 2,
+        "response1Choice": "I have already discovered a passcode.",
+        "response1": "You quickly enter the password. The computer unlocks, and you click on the first option you see, 'Communications'. On the screen, you see that the 'station to Earth communication line is offline.' You switch it to online. Communication from the station to Earth is enabled.",
+        "goTo": "data16",
+        "response2Choice": "I have not discovered a passcode",
+        "response2": "You continue to type in random characters in hope that something will happen. You can hear the creatures surrounding you. In defeat, you take your last breath."
+    },
+    "data16": {
+        "text": "You have completed your task. You immediately receive a transmission in your helmet from mission control. They congratulate you on your job and thank you for the sacrifice you've made for the space agency. You continue to frantically send messages to the agency, but it is too late. You have been abandoned and left for dead. You got the bad ending."
+    },
+    "data17": {
+        "text": "Move to the next room",
+        "responses": 2,
+        "response1Choice": "Yes",
+        "response1": "You make your way carefully into the next doorway you see.",
+        "response2Choice": "No",
+        "response2": "There is nothing left here to see.",
+        "goTo": "data18"
+    },
+    "data18": {
+        "text": "The next room is full of machines and electronics.  The sign on the door says 'Communications.' What should you do?",
+        "responses": 2,
+        "response1Choice": "Explore Room",
+        "response1": "The room is filled with rubble and debris, and the walls are lined with monitors, humming electrical equipment, and many panels full of switches and diagrams.",
+        "response2Choice": "Explore electronics",
+        "response2": "The electronic equipment lining the room is full of panels of switches, monitors, keyboards, buttons, diagrams, and server racks.  You notice one monitor specifically still functioning and on, with a keyboard in front of it.",
+        "goTo": "data19"
+    },
+    "data19": {
+        "text": "The electronic equipment lining the room is full of panels of switches, monitors, keyboards, buttons, diagrams, and server racks.  You notice one monitor specifically still functioning and on, with a keyboard in front of it.",
+        "goTo": "data20"
+    },
+    "data20": {
+        "text": "Investigate monitor?",
+        "responses": 2,
+        "response1Choice": "Yes",
+        "response1": "You approach the monitor.  It shows a blinking cursor and a login screen.",
+        "goTo1": "data21",
+        "response2Choice": "No",
+        "response2": "You look around the room, but there is nothing else operational.",
+        "goTo2": "20"
+    },
+    "data21": {
+        "text": "You approach the monitor.  It shows a blinking cursor and a login screen.",
+        "goTo": "data22"
+    },
+    "data22": {
+        "text": "Note found?",
+        "responses": 2,
+        "response1Choice": "Yes",
+        "goTo1": "data24",
+        "response2Choice": "No",
+        "response2": "It appears that you need a password to login.",
+        "goTo": "data23"
+    },
+    "data23": {
+        "text": "Attempt to hack the computer?",
+        "responses": 2,
+        "response1Choice": "Yes",
+        "response1": "You manage to hack into the computer and gain access.",
+        "goTo1": "data25",
+        "response2Choice": "No",
+        "response2": "You remember your mission, and you realize just how close you are to finishing it.",
+        "goTo2": "data23"
+    },
+    "data24": {
+        "text": "Input password?",
+        "responses": 2,
+        "response1Choice": "Yes",
+        "response1": "The computer unlocks, and shows the desktop.  There are only a few applications visible.  There is 'Security Systems', 'Communications Systems', 'Electrical Systems', and 'Habitation Systems.'",
+        "goTo1": "data25",
+        "response2Choice": "No",
+        "response2": "You do not input the password.",
+        "goTo2": "data24"
+    },
+    "data25": {
+        "text": "Open Application",
+        "responses": 4,
+        "response1Choice": "Electrical Systems",
+        "response1": "You open the electrical systems, and it gives a menu with many options.  Most are grayed out, but the ones you can toggle are labeled 'Full system power', 'Necessary system power', and 'No system power'.",
+        "goTo1": "data26",
+        "response2Choice": "Habitation Systems",
+        "response2": "You open the habitation systems, and it displays a top-down diagram of the current level on the station, and all rooms within.  There is an option to enable or disable habitation systems on the top of the menu.",
+        "goTo2": "data27",
+        "response3Choice": "Security Systems",
+        "response3": "You open the security systems, and it gives a menu with many different options and sections of the station labeled, as well as a CCTV camera view box, but it is currently filled with static and a large 'OFFLINE' label.",
+        "goTo3": "data28",
+        "response4Choice": "Communications Systems",
+        "response4": "You open the communications systems, and a display showing several points on a diagram of the station opens.  Each point has a green or red label next to it, saying 'Online' or 'Offline', respectively.  The left side of the menu has several options.",
+        "goTo4": "data29"
+    },
+    "data26": {
+        "text": "Which option should you choose from the menu?",
+        "responses": 3,
+        "response1Choice": "Full System Power",
+        "response1": "Full system power is already selected",
+        "response2Choice": "Necessary System Power",
+        "response2": "You select 'Necessary system power' and hear a large clanging somewhere distant in the station, followed by a loud roar.",
+        "goTo": "data25",
+        "response3Choice": "No System Power",
+        "response3": "You select 'No system power' and hear a loud clanging sound, before all the lights and electronics go dark.  All humming stops and you find yourself in pitch black darkness.  You turned off full station power.  You are abandoned on the station with no hope of getting back home."
+    },
+    "data27": {
+        "text": "Disable habitation systems",
+        "responses": 1,
+        "response1": "You disable the habitation systems on the station, and you hear a loud explosion and everything begins shaking.  The ceiling, floor, and walls all suddenly collapse at lightning speed on you.  You died from rapid station decompression."
+    },
+    "data28": {
+        "text": "Interact with Systems",
+        "responses": 1,
+        "response1": "Red text appears across the center of the screen, stating 'THIS DEVICE DOES NOT HAVE SECURITY CLEARANCE'.",
+        "goTo": "data25"
+    },
+    "data29": {
+        "text": "Which option should you choose from the menu?",
+        "responses": 3,
+        "response1Choice": "Local Station Communication Line",
+        "response1": "You enable the local station communication line.  Nothing seems to happen or change on the monitor.  Near you, a wired phone light turns on, signaling that it's operational.",
+        "response2Choice": "Data Relay Network",
+        "response2": "You enable the station's data relay network.  You select the 'enable' option, however red text appears on the center of the screen, stating 'DATA RELAY NETWORK OFFLINE'.",
+        "response3Choice": "Station to Earth Communication Line",
+        "response3": "You enable station to earth communications, and you see several points on the station diagram change to a green 'Online' status.  Almost immediately, you get a transmission in your helmet from mission control.  They congratulate you on your job, and state that they have regained communications with the station and data is being uploaded to station software in an attempt to reboot the system and take back control.  You are informed that a shuttle is in route and will arrive to bring you home soon.  Congratulations, you got the good ending."
+    }
 }

@@ -26,12 +26,40 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(`test`)
 });
 
-function startAdventure() {
-    let tempPath = `data1`;
-    console.log("started")
-    console.log(dialogue)
-    console.log(dialogue[tempPath].text);
+function changeDial(tempPath) {
+    if (document.getElementById(`startButton`) !== null) {
+        document.getElementById(`startButton`).remove();
+    }
+    // console.log("started")
+    // console.log(dialogue)
+    // console.log(dialogue[tempPath].text);
+    document.getElementById(`textArea`).innerText = dialogue[tempPath].text
 
-    let newElement = document.createElement(`p`)
-    newElement.innerText = dialogue;
+    for (i=1;i<dialogue[tempPath].responses+1;i++) {
+        console.log(dialogue[tempPath].responses)
+
+        let choice = `response`+i+`Choice`;
+        console.log(choice);
+
+        addElement(`button`,`response`+i,dialogue[tempPath][choice],`textArea`,dialogue[tempPath].goTo)
+    }
 }
+
+function addElement(tag,id,content,afterEl,goTo) {
+    // create a new div element
+    const newDiv = document.createElement(tag);
+    newDiv.id = id;
+    if (goTo) {
+        newDiv.innterHTML=`<${tag} onclick="changeDial(${goTo})">${content}</${tag}>`;
+    }
+  
+    // and give it some content
+    const newContent = document.createTextNode(content);
+  
+    // add the text node to the newly created div
+    newDiv.appendChild(newContent);
+  
+    // add the newly created element and its content into the DOM
+    const currentDiv = document.getElementById(afterEl);
+    currentDiv.after(newDiv);
+  }
