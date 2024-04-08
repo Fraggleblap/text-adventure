@@ -40,6 +40,9 @@ function changeDial(tempPath) {
 
         let choice = `response`+i+`Choice`;
         console.log(choice);
+        if (document.getElementById(`response`+i)) {
+            document.getElementById(`response`+i).remove()
+        }
 
         addElement(`button`,`response`+i,dialogue[tempPath][choice],`textArea`,dialogue[tempPath].goTo)
     }
