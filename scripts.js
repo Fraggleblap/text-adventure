@@ -1,4 +1,4 @@
-let dialogue
+let dialogue;
 
 // Fetch json file which contains data for all dialogue and text and responses
 function getDialogue() {
@@ -18,17 +18,20 @@ function getDialogue() {
 
 }
 function doSomething(data) {
-    dialogue = data
+    dialogue = data;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-
+    getDialogue();
     console.log(`test`)
-    //let data = getDialogue()
-    console.log(getDialogue())
 });
 
 function startAdventure() {
+    let tempPath = `data1`;
     console.log("started")
-    document.createElement("p").innerText = dialogue;
+    console.log(dialogue)
+    console.log(dialogue[tempPath].text);
+
+    let newElement = document.createElement(`p`)
+    newElement.innerText = dialogue;
 }
