@@ -39,9 +39,10 @@
         "goTo2": "data9"
     },
     "data5": {
+        "text": "You look around for a long while, taking in as much as you can with the relatively small area you can see bathed in light.  You eventually find a filing cabinet.  It looks to be in good condition, relative to the floating debris and poor condition of everything else around you.  The top drawer is smashed in and unopenable, but the bottom two drawers appear to be working fine.",
         "responses": 2,
-        "response1": "You look around for a long while, taking in as much as you can with the relatively small area you can see bathed in light.  You eventually find a filing cabinet.  It looks to be in good condition, relative to the floating debris and poor condition of everything else around you.  The top drawer is smashed in and unopenable, but the bottom two drawers appear to be working fine.",
-        "response2": "You look around for a little while, keeping mental notes of things you deem to be somewhat important.  You eventually find a filing cabinet.  It looks to be in good condition, relative to the floating debris and poor condition of everything else around you.  The top drawer is smashed in and unopenable, but the bottom two drawers appear to be working fine.",
+        "response1": "Open the drawers",
+        "response2": "Move on",
         "goTo": "data6"
     },
     "data6": {
