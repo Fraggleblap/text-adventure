@@ -49,12 +49,7 @@ function addElement(tag,id,content,afterEl,goTo) {
     // create a new div element
     const newDiv = document.createElement(tag);
     newDiv.id = id;
-    newDiv.onclick; // Need to make the onclick work
-    if (goTo) {
-        newDiv.innterHTML=`<${tag} onclick="changeDial(${goTo})">${content}</${tag}>`;
-    } else {
-        newDiv.innterHTML=`<${tag} onclick="changeDial(${goTo})">${content}</${tag}>`;
-    }
+    newDiv.addEventListener(`click`, () => changeDial(goTo));
   
     // and give it some content
     const newContent = document.createTextNode(content);
