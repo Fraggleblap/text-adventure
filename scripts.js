@@ -33,7 +33,7 @@ function changeDial(tempPath) {
     // console.log("started")
     // console.log(dialogue)
     // console.log(dialogue[tempPath].text);
-    document.getElementById(`textArea`).innerText = dialogue[tempPath].text
+    document.getElementById(`textArea`).innerText += dialogue[tempPath].text
 
     for (i=1;i<dialogue[tempPath].responses+1;i++) {
         console.log(dialogue[tempPath].responses)
