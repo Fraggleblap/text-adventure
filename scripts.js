@@ -1,5 +1,7 @@
 let dialogue;
 
+let noteFound = false;  // STILL NEED TO IMPLEMENT
+
 // Fetch json file which contains data for all dialogue and text and responses
 function getDialogue() {
     fetch("./text.json")
@@ -47,7 +49,8 @@ function changeDial(tempPath, previousResponse) {
         }
     }
 
-    if (dialogue[tempPath].responses === null) {
+    if (dialogue[tempPath].responses === undefined) {
+        let goTo = dialogue[tempPath].goTo1
         addElement(`button`, `response1`, `Move on`, `textArea`, dialogue[tempPath], goTo)
     } else {
         for (i = 1; i < dialogue[tempPath].responses + 1; i++) {
