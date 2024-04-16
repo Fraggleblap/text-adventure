@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-flow: column;
+    background-color: #381c74;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    margin: 2% 10% 10%;
+    background-color: rgb(211, 211, 211);
+    border-radius: 3px;
+    border-color: blueviolet;
+    border-style: solid;
+}
+
+header {
+    margin-top: 2%;
+    color: white;
+    justify-content: center;
+    align-self: center;
+    font-size: 2.5em;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(247, 223, 255);
+    border-radius: 8px;
+    margin:5px;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: rgb(224, 170, 242);
+    cursor: pointer;
+}
+
+#choiceBox {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 1.5em;
+}
+
+#textArea {
+    font-size: 1.6em;
+    margin:5%
+}
+
+#imageBox {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 20%;
+}

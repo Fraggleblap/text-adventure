@@ -1,6 +1,6 @@
 let dialogue;
 
-let noteFound = false;  // STILL NEED TO IMPLEMENT
+let noteFound = false;
 
 // Fetch json file which contains data for all dialogue and text and responses
 function getDialogue() {

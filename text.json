@@ -96,7 +96,7 @@
         "response2Choice": "Next room",
         "response2": "You choose to move on to the next room.",
         "goTo1": "data8.5",
-        "goTo2": "data9"
+        "goTo2": "data10"
     },
     "data9": {
         "text": "You decide to make your way toward the next room. As you get closer, you start to hear something. You hear shuffling in the distance. Should you investigate?",
@@ -150,7 +150,7 @@
     },
     "data16": {
         "text": "You have completed your task. You immediately receive a transmission in your helmet from mission control. They congratulate you on your job and thank you for the sacrifice you've made for the space agency. You continue to frantically send messages to the agency, but it is too late. You have been abandoned and left for dead. You got the bad ending.",
-        "goTo": "data1"
+        "goTo1": "data1"
     },
     "data17": {
         "text": "Move to the next room",
