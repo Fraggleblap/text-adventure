@@ -7,7 +7,9 @@
         "response2Choice": "Ignore it",
         "response2": "The call goes to voicemail. You listen to the message that was sent to you. The caller introduces himself as the founder of the space agency. This peaks your interest. You listen as the founder explains his dilemma. A communications blackout has occurred, he wants you to investigate the surrounding area, after all, you are one of the best detectives in your field of work. There is just one thing, you cannot tell anyone about the task. As flattered as you are, you can't help but feel skeptical about the 'secret task'. At the end, he asks you to call him if you are up for the task.",
         "goTo1": "data2",
-        "goTo2": "data1.5"
+        "goTo2": "data1.5",
+        "image1": "phoneRingImage",
+        "image2": "phoneImage"
     },
     "data1.5": {
         "text": "You debate whether to call the number back or leave it.",
@@ -17,7 +19,8 @@
         "response2Choice": "Ignore your mind and continue with your day.",
         "response2": "You got the boring ending.",
         "goTo1": "data2",
-        "goTo2": "data1"
+        "goTo2": "data1",
+        "image1": "phoneImage"
     },
     "data2": {
         "text": "An opportunity arises",
@@ -26,7 +29,9 @@
         "response1": "You choose to go to the space station despite your suspicions. You make your way to the launch site to investigate the communications blackout.",
         "response2Choice": "Don't go to the space station",
         "response2": "You choose to stay home instead of leaving and heading to the launch site, when the morning comes for your scheduled departure.  After several minutes, you hear a car outside, followed by a knock on your door.  Two men in suits are standing at your door, here to take you to the launch site.  They eventually convince you to join them, and you continue with the launch.",
-        "goTo1": "data3"
+        "goTo1": "data3",
+        "image1": "rocketLaunchImage",
+        "image2": "refuseLaunchImage"
     },
     "data3": {
         "text": "Now aboard the station, you find yourself in a pitch black area.  You were given a flashlight and night vision built into your space suit helmet, but they both use a percentage of your suit battery.",
@@ -36,7 +41,8 @@
         "response2Choice": "Use night vision",
         "response2": "You decide to activate nightvision, allowing you to see your surroundings. The only problem is that night vision uses more battery than the flashlight. You look around the station, trying to find the cause of the blackout. Should you keep exploring this room or search for the next room?",
         "goTo1": "data4",
-        "goTo2": "data4.5"
+        "goTo2": "data4.5",
+        "image1": "enterStationImage"
     },
     "data4": {
         "text": "Explore more or search for next room?",
@@ -46,7 +52,8 @@
         "response2Choice": "Next room",
         "response2": "You choose to move on to the next room.",
         "goTo1": "data5",
-        "goTo2": "data9"
+        "goTo2": "data9",
+        "image1": "findCabinetImage"
     },
     "data4.5": {
         "text": "Explore more or search for next room?",
@@ -56,7 +63,8 @@
         "response2Choice": "Next room",
         "response2": "You choose to move on to the next room.",
         "goTo1": "data5",
-        "goTo2": "data10"
+        "goTo2": "data10",
+        "image1": "cabinetImage"
     },
     "data5": {
         "text": "Explore cabinet?",
@@ -66,7 +74,8 @@
         "response2Choice": "Move on",
         "response2": "You do not check out the cabinet",
         "goTo1": "data6.5",
-        "goTo2": "data8.5"
+        "goTo2": "data8.5",
+        "image1": "cabinetImage"
     },
     "data6.5": {
         "text": "Open the drawers?",
@@ -76,7 +85,9 @@
         "response2Choice": "No",
         "response2": "You dismiss the file cabinet as another piece of broken furniture and debris, to be forgotten and left behind.",
         "goTo1": "data7.5",
-        "goTo2": "data8.5"
+        "goTo2": "data8.5",
+        "image1": "noteDrawerImage",
+        "image2": "findCabinetImage"
     },
     "data7.5": {
         "text": "Read the note?",
@@ -86,7 +97,8 @@
         "response1": "You pick up the note and read it. The note is written by a former scientist named 'Theo' who worked aboard the station. The note is a journal entry of his first days aboard the station, and has an air of excitement in the way it's written.  There is a small string of characters at the bottom.  They appear to be a password.",
         "response2Choice": "No",
         "response2": "You ignore the note and close the filing cabinet.  There's no time for reading silly little notes when there's a much bigger job to be done.",
-        "goTo1": "data8.5"
+        "goTo1": "data8.5",
+        "image1": "readNoteImage"
     },
     "data8.5": {
         "text": "Continue exploring or move to next room?",
@@ -106,7 +118,8 @@
         "response2Choice": "Absolutely not",
         "response2": "The realization suddenly hits you that you are in a place of great possible dangers, and you need to be careful with every move you make.",
         "goTo1": "data1",
-        "goTo2": "data17"
+        "goTo2": "data17",
+        "image1": "noiseEntityImage"
     },
     "data10": {
         "text": "As you walk towards the next room, you spot something moving in the distance. You can only see an outline of something, but you can't figure out what it is. Should you investigate?",
@@ -126,7 +139,9 @@
         "response2Choice": "Don't read the note",
         "response2": "You ignore the note. Suddenly you hear a screeching noise in the distance. Not wanting to investigate further, you decide to flee from the area.",
         "goTo1": "data17",
-        "goTo2": "data13"
+        "goTo2": "data13",
+        "image1": "smudgyNoteImage"
+
     },
     "data13": {
         "text": "In the corner of your eye, you get a glimpse of the creature. It hasn't found you yet. You still have time to fix the communications blackout, but in the corner of the room you spot an escape pod. Should you escape or stay?",
@@ -136,7 +151,9 @@
         "response2Choice": "Escape the station",
         "response2": "You have escaped, but at what cost? You have not completed what you were supposed to do. You have failed the task. Once you get back to Earth, you are shot dead.",
         "goTo1": "data14",
-        "goTo2": "data1"
+        "goTo2": "data1",
+        "image1": "roomToCommsImage",
+        "image2": "escapeEndingImage"
     },
     "data14": {
         "text": "You make it to a room with a sign that says communications. You can hear multiple creatures patrolling now. Your night vision shuts down. All you can see is a glowing monitor. It needs a password.",
@@ -146,11 +163,13 @@
         "response2Choice": "I have not discovered a passcode",
         "response2": "You continue to type in random characters in hope that something will happen. You can hear the creatures surrounding you. In defeat, you take your last breath.",
         "goTo1": "data16",
-        "goTo2": "data1"
+        "goTo2": "data1",
+        "image1": "glowingMonitorImage"
     },
     "data16": {
         "text": "You have completed your task. You immediately receive a transmission in your helmet from mission control. They congratulate you on your job and thank you for the sacrifice you've made for the space agency. You continue to frantically send messages to the agency, but it is too late. You have been abandoned and left for dead. You got the bad ending.",
-        "goTo1": "data1"
+        "goTo1": "data1",
+        "image1": "badEndingImage"
     },
     "data17": {
         "text": "Move to the next room",
@@ -253,7 +272,8 @@
         "responses": 1,
         "response1": "Red text appears across the center of the screen, stating 'THIS DEVICE DOES NOT HAVE SECURITY CLEARANCE'.",
         "response1Choice": "Return to Menu",
-        "goTo1": "data25"
+        "goTo1": "data25",
+        "image1": "securityClearanceImage"
     },
     "data29": {
         "text": "Which option should you choose from the menu?",
@@ -266,6 +286,7 @@
         "response3": "You enable station to earth communications, and you see several points on the station diagram change to a green 'Online' status.  Almost immediately, you get a transmission in your helmet from mission control.  They congratulate you on your job, and state that they have regained communications with the station and data is being uploaded to station software in an attempt to reboot the system and take back control.  You are informed that a shuttle is in route and will arrive to bring you home soon.  Congratulations, you got the good ending.",
         "goTo1": "data25",
         "goTo2": "data25",
-        "goTo3": "data1"
+        "goTo3": "data1",
+        "image1": "goodEndingImage"
     }
 }

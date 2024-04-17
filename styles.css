@@ -27,7 +27,7 @@ button {
     padding: 10px;
     background-color: rgb(247, 223, 255);
     border-radius: 8px;
-    margin:5px;
+    margin: 5px;
     font-size: 1.2em;
 }
 
@@ -44,12 +44,5 @@ button:hover {
 
 #textArea {
     font-size: 1.6em;
-    margin:5%
-}
-
-#imageBox {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    width: 20%;
+    margin: 5%
 }
