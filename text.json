@@ -119,7 +119,8 @@
         "response2": "The realization suddenly hits you that you are in a place of great possible dangers, and you need to be careful with every move you make.",
         "goTo1": "data1",
         "goTo2": "data17",
-        "image1": "noiseEntityImage"
+        "image1": "noiseEntityImage",
+        "image2": "deathByEntityImage"
     },
     "data10": {
         "text": "As you walk towards the next room, you spot something moving in the distance. You can only see an outline of something, but you can't figure out what it is. Should you investigate?",
@@ -129,7 +130,8 @@
         "response2Choice": "It's better to lay low for the time being",
         "response2": "The realization suddenly hits you that you are in a place of great possible dangers, and you need to be careful with every move you make.",
         "goTo1": "data11",
-        "goTo2": "data17"
+        "goTo2": "data17",
+        "image1": "FlentityImage"
     },
     "data11": {
         "text": "Read the note?",
@@ -164,12 +166,13 @@
         "response2": "You continue to type in random characters in hope that something will happen. You can hear the creatures surrounding you. In defeat, you take your last breath.",
         "goTo1": "data16",
         "goTo2": "data1",
-        "image1": "glowingMonitorImage"
+        "image1": "glowingMonitorImage",
+        "image2": "securityBadEndingDeathImage"
     },
     "data16": {
         "text": "You have completed your task. You immediately receive a transmission in your helmet from mission control. They congratulate you on your job and thank you for the sacrifice you've made for the space agency. You continue to frantically send messages to the agency, but it is too late. You have been abandoned and left for dead. You got the bad ending.",
         "goTo1": "data1",
-        "image1": "badEndingImage"
+        "image1": "securityBadEndingImage"
     },
     "data17": {
         "text": "Move to the next room",
@@ -179,7 +182,8 @@
         "response2Choice": "No",
         "response2": "There is nothing left here to see.",
         "goTo1": "data18",
-        "goto2": "data17"
+        "goto2": "data17",
+        "image1": "communicationsImage"
     },
     "data18": {
         "text": "The next room is full of machines and electronics.  The sign on the door says 'Communications.' What should you do?",
@@ -189,11 +193,13 @@
         "response2Choice": "Explore electronics",
         "response2": "The electronic equipment lining the room is full of panels of switches, monitors, keyboards, buttons, diagrams, and server racks.  You notice one monitor specifically still functioning and on, with a keyboard in front of it.",
         "goTo1": "data19",
-        "goTo2": "data20"
+        "goTo2": "data20",
+        "image1": "monitorImage"
     },
     "data19": {
         "text": "The electronic equipment lining the room is full of panels of switches, monitors, keyboards, buttons, diagrams, and server racks.  You notice one monitor specifically still functioning and on, with a keyboard in front of it.",
-        "goTo1": "data20"
+        "goTo1": "data20",
+        "image1": "monitorImage"
     },
     "data20": {
         "text": "Investigate monitor?",
@@ -203,13 +209,15 @@
         "response2Choice": "No",
         "response2": "You look around the room, but there is nothing else operational.",
         "goTo1": "data21",
-        "goTo2": "data20"
+        "goTo2": "data20",
+        "image1": "glowingMonitor2Image"
     },
     "data21": {
         "text": "You approach the monitor.  It shows a blinking cursor and a login screen.",
         "needNote": "true",
         "goTo1": "data23",
-        "goTo2": "data24"
+        "goTo2": "data24",
+        "image1": "glowingMonitor2Image"
     },
     "data23": {
         "text": "Attempt to hack the computer?",
@@ -229,7 +237,8 @@
         "response2Choice": "No",
         "response2": "You do not input the password.",
         "goTo1": "data25",
-        "goTo2": "data24"
+        "goTo2": "data24",
+        "image1": "monitorScreenImage"
     },
     "data25": {
         "text": "Open Application",
@@ -258,14 +267,16 @@
         "response3": "You select 'No system power' and hear a loud clanging sound, before all the lights and electronics go dark.  All humming stops and you find yourself in pitch black darkness.  You turned off full station power.  You are abandoned on the station with no hope of getting back home.",
         "goTo1": "data25",
         "goTo2": "data1",
-        "goTo3": "data1"
+        "goTo3": "data1",
+        "image1": "abandonedImage"
     },
     "data27": {
         "text": "Disable habitation systems",
         "responses": 1,
         "response1": "You disable the habitation systems on the station, and you hear a loud explosion and everything begins shaking.  The ceiling, floor, and walls all suddenly collapse at lightning speed on you.  You died from rapid station decompression.",
         "response1Choice": "Restart",
-        "goTo1": "data1"
+        "goTo1": "data1",
+        "image1": "badEndingImage"
     },
     "data28": {
         "text": "Interact with Systems",
