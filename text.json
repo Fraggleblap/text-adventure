@@ -42,7 +42,8 @@
         "response2": "You decide to activate nightvision, allowing you to see your surroundings. The only problem is that night vision uses more battery than the flashlight. You look around the station, trying to find the cause of the blackout. Should you keep exploring this room or search for the next room?",
         "goTo1": "data4",
         "goTo2": "data4.5",
-        "image1": "enterStationImage"
+        "image1": "enterStationImage",
+        "image2": "enterStationImage"
     },
     "data4": {
         "text": "Explore more or search for next room?",
