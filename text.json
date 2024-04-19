@@ -228,7 +228,8 @@
         "response2Choice": "No",
         "response2": "You remember your mission, and you realize just how close you are to finishing it.",
         "goTo1": "data25",
-        "goTo2": "data23"
+        "goTo2": "data23",
+        "image1": "monitorScreenImage"
     },
     "data24": {
         "text": "Input password?",
