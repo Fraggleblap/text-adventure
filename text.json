@@ -168,7 +168,7 @@
         "goTo1": "data16",
         "goTo2": "data1",
         "image1": "glowingMonitorImage",
-        "image2": "securityBadEndingDeathImage"
+        "image2": "securityBadEndingDeath"
     },
     "data16": {
         "text": "You have completed your task. You immediately receive a transmission in your helmet from mission control. They congratulate you on your job and thank you for the sacrifice you've made for the space agency. You continue to frantically send messages to the agency, but it is too late. You have been abandoned and left for dead. You got the bad ending.",
