@@ -3,9 +3,9 @@
         "text": "It is a slow day at the workplace, not much is going on at the moment. You glance down at your desk, staring at the envelopes that are piled on your desk. Looking around, you notice that your desk is the most cluttered out of all of your colleagues'. Files upon files of identities of suspects and missing people lie there untouched. One case has always stood out to you, a case that involves people that you look to and have admired since you were younger. Scientists. The fascination of astronomy and spacecrafts never died down, it only grew as the case grew cold. The room becomes eerily quiet, you realize you are the only one left in the room. After a few seconds of silence, the phone on your desk rings. What should you do?",
         "responses": 2,
         "response1Choice": "Answer the phone",
-        "response1": "You answer the phone. The caller introduces himself as the founder of the space agency. He mentions that he is in a bit of a dilemma. Concerned, you ask about the details of the situation. You find out that a communications blackout has occurred and that he needs you to investigate the area. He says that he has gotten recommendations about you being one of the best detectives in your line of work. You consider the opportunity, but remain skeptical about the task. Should you go to the space station?",
+        "response1": "You answer the phone. The caller introduces themself as the founder of the space agency. They mention that they are in a bit of a dilemma. Concerned, you ask about the details of the situation. You find out that a communications blackout has occurred and that they need you to investigate the area. They say that they have gotten recommendations about you being one of the best detectives in your line of work. You consider the opportunity, but remain skeptical about the task. Should you go to the space station?",
         "response2Choice": "Ignore it",
-        "response2": "The call goes to voicemail. You listen to the message that was sent to you. The caller introduces himself as the founder of the space agency. This peaks your interest. You listen as the founder explains his dilemma. A communications blackout has occurred, he wants you to investigate the surrounding area, after all, you are one of the best detectives in your field of work. There is just one thing, you cannot tell anyone about the task. As flattered as you are, you can't help but feel skeptical about the 'secret task'. At the end, he asks you to call him if you are up for the task.",
+        "response2": "The call goes to voicemail. You listen to the message that was sent to you. The caller introduces themself as the founder of the space agency. This peaks your interest. You listen as the founder explains their dilemma. A communications blackout has occurred, thee ywant you to investigate the surrounding area, after all, you are one of the best detectives in your field of work. There is just one thing, you cannot tell anyone about the task. As flattered as you are, you can't help but feel skeptical about the 'secret task'. At the end, they ask you to call him if you are up for the task.",
         "goTo1": "data2",
         "goTo2": "data1.5",
         "image1": "phoneRingImage",
@@ -15,7 +15,7 @@
         "text": "You debate whether to call the number back or leave it.",
         "responses": 2,
         "response1Choice": "Call them back",
-        "response1": "You call them back. They introduces himself as the founder of the space agency. He mentions that he is in a bit of a dilemma. Concerned, you ask about the details of the situation. You find out that a communications blackout has occurred and that he needs you to investigate the area. He says that he has gotten recommendations about you being one of the best detectives in your line of work. You consider the opportunity, but remain skeptical about the task. Should you go to the space station?",
+        "response1": "You call them back. They introduce themself as the founder of the space agency. They mention that they are in a bit of a dilemma. Concerned, you ask about the details of the situation. You find out that a communications blackout has occurred and that they need you to investigate the area. They say that they have gotten recommendations about you being one of the best detectives in your line of work. You consider the opportunity, but remain skeptical about the task. Should you go to the space station?",
         "response2Choice": "Ignore your mind and continue with your day.",
         "response2": "You got the boring ending.",
         "goTo1": "data2",
@@ -42,7 +42,8 @@
         "response2": "You decide to activate nightvision, allowing you to see your surroundings. The only problem is that night vision uses more battery than the flashlight. You look around the station, trying to find the cause of the blackout. Should you keep exploring this room or search for the next room?",
         "goTo1": "data4",
         "goTo2": "data4.5",
-        "image1": "enterStationImage"
+        "image1": "enterStationImage",
+        "image2": "enterStationImage"
     },
     "data4": {
         "text": "Explore more or search for next room?",
@@ -119,7 +120,8 @@
         "response2": "The realization suddenly hits you that you are in a place of great possible dangers, and you need to be careful with every move you make.",
         "goTo1": "data1",
         "goTo2": "data17",
-        "image1": "noiseEntityImage"
+        "image1": "noiseEntityImage",
+        "image2": "deathByEntityImage"
     },
     "data10": {
         "text": "As you walk towards the next room, you spot something moving in the distance. You can only see an outline of something, but you can't figure out what it is. Should you investigate?",
@@ -129,7 +131,8 @@
         "response2Choice": "It's better to lay low for the time being",
         "response2": "The realization suddenly hits you that you are in a place of great possible dangers, and you need to be careful with every move you make.",
         "goTo1": "data11",
-        "goTo2": "data17"
+        "goTo2": "data17",
+        "image1": "FLentityImage"
     },
     "data11": {
         "text": "Read the note?",
@@ -141,7 +144,6 @@
         "goTo1": "data17",
         "goTo2": "data13",
         "image1": "smudgyNoteImage"
-
     },
     "data13": {
         "text": "In the corner of your eye, you get a glimpse of the creature. It hasn't found you yet. You still have time to fix the communications blackout, but in the corner of the room you spot an escape pod. Should you escape or stay?",
@@ -153,7 +155,7 @@
         "goTo1": "data14",
         "goTo2": "data1",
         "image1": "roomToCommsImage",
-        "image2": "escapeEndingImage"
+        "image2": "escapeEnding"
     },
     "data14": {
         "text": "You make it to a room with a sign that says communications. You can hear multiple creatures patrolling now. Your night vision shuts down. All you can see is a glowing monitor. It needs a password.",
@@ -164,12 +166,13 @@
         "response2": "You continue to type in random characters in hope that something will happen. You can hear the creatures surrounding you. In defeat, you take your last breath.",
         "goTo1": "data16",
         "goTo2": "data1",
-        "image1": "glowingMonitorImage"
+        "image1": "glowingMonitorImage",
+        "image2": "securityBadEndingDeath"
     },
     "data16": {
         "text": "You have completed your task. You immediately receive a transmission in your helmet from mission control. They congratulate you on your job and thank you for the sacrifice you've made for the space agency. You continue to frantically send messages to the agency, but it is too late. You have been abandoned and left for dead. You got the bad ending.",
         "goTo1": "data1",
-        "image1": "badEndingImage"
+        "image1": "securityBadEnding"
     },
     "data17": {
         "text": "Move to the next room",
@@ -179,7 +182,8 @@
         "response2Choice": "No",
         "response2": "There is nothing left here to see.",
         "goTo1": "data18",
-        "goto2": "data17"
+        "goto2": "data17",
+        "image1": "communicationsImage"
     },
     "data18": {
         "text": "The next room is full of machines and electronics.  The sign on the door says 'Communications.' What should you do?",
@@ -187,13 +191,15 @@
         "response1Choice": "Explore Room",
         "response1": "The room is filled with rubble and debris, and the walls are lined with monitors, humming electrical equipment, and many panels full of switches and diagrams.",
         "response2Choice": "Explore electronics",
-        "response2": "The electronic equipment lining the room is full of panels of switches, monitors, keyboards, buttons, diagrams, and server racks.  You notice one monitor specifically still functioning and on, with a keyboard in front of it.",
+        "response2": "The electronic equipment lining the room is full of panels of switches, monitors, keyboards, buttons, diagrams, and server racks.  You notice one monitor specifically still on and functioning, with a keyboard in front of it.",
         "goTo1": "data19",
-        "goTo2": "data20"
+        "goTo2": "data20",
+        "image2": "monitorImage"
     },
     "data19": {
-        "text": "The electronic equipment lining the room is full of panels of switches, monitors, keyboards, buttons, diagrams, and server racks.  You notice one monitor specifically still functioning and on, with a keyboard in front of it.",
-        "goTo1": "data20"
+        "text": "The electronic equipment lining the room is full of panels of switches, monitors, keyboards, buttons, diagrams, and server racks.  You notice one monitor specifically still on and functioning, with a keyboard in front of it.",
+        "goTo1": "data20",
+        "image1": "monitorImage"
     },
     "data20": {
         "text": "Investigate monitor?",
@@ -203,13 +209,15 @@
         "response2Choice": "No",
         "response2": "You look around the room, but there is nothing else operational.",
         "goTo1": "data21",
-        "goTo2": "data20"
+        "goTo2": "data20",
+        "image1": "glowingMonitor2Image"
     },
     "data21": {
         "text": "You approach the monitor.  It shows a blinking cursor and a login screen.",
         "needNote": "true",
         "goTo1": "data23",
-        "goTo2": "data24"
+        "goTo2": "data24",
+        "image1": "glowingMonitor2Image"
     },
     "data23": {
         "text": "Attempt to hack the computer?",
@@ -219,17 +227,19 @@
         "response2Choice": "No",
         "response2": "You remember your mission, and you realize just how close you are to finishing it.",
         "goTo1": "data25",
-        "goTo2": "data23"
+        "goTo2": "data23",
+        "image1": "monitorScreenImage"
     },
     "data24": {
         "text": "Input password?",
         "responses": 2,
         "response1Choice": "Yes",
-        "response1": "The computer unlocks, and shows the desktop.  There are only a few applications visible.  There is 'Security Systems', 'Communications Systems', 'Electrical Systems', and 'Habitation Systems.'",
+        "response1": "The computer unlocks, and shows the desktop.  There are only a few applications visible.  There are 'Security Systems', 'Communications Systems', 'Electrical Systems', and 'Habitation Systems.'",
         "response2Choice": "No",
         "response2": "You do not input the password.",
         "goTo1": "data25",
-        "goTo2": "data24"
+        "goTo2": "data24",
+        "image1": "monitorScreenImage"
     },
     "data25": {
         "text": "Open Application",
@@ -258,14 +268,16 @@
         "response3": "You select 'No system power' and hear a loud clanging sound, before all the lights and electronics go dark.  All humming stops and you find yourself in pitch black darkness.  You turned off full station power.  You are abandoned on the station with no hope of getting back home.",
         "goTo1": "data25",
         "goTo2": "data1",
-        "goTo3": "data1"
+        "goTo3": "data1",
+        "image1": "abandonedImage"
     },
     "data27": {
         "text": "Disable habitation systems",
         "responses": 1,
         "response1": "You disable the habitation systems on the station, and you hear a loud explosion and everything begins shaking.  The ceiling, floor, and walls all suddenly collapse at lightning speed on you.  You died from rapid station decompression.",
         "response1Choice": "Restart",
-        "goTo1": "data1"
+        "goTo1": "data1",
+        "image1": "badEndingImage"
     },
     "data28": {
         "text": "Interact with Systems",
@@ -287,6 +299,6 @@
         "goTo1": "data25",
         "goTo2": "data25",
         "goTo3": "data1",
-        "image1": "goodEndingImage"
+        "image3": "goodEndingImage"
     }
 }
