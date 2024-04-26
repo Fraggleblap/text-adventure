@@ -131,16 +131,7 @@
         "response2Choice": "It's better to lay low for the time being",
         "response2": "The realization suddenly hits you that you are in a place of great possible dangers, and you need to be careful with every move you make.",
         "goTo1": "data11",
-        "goTo2": "data17",
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "image1": "FlentityImage"
-=======
-        "image1": "FLentityImage"
->>>>>>> 5429911882d0d499ab3c44edf15021e5fe4891b6
-=======
-        "image1": "FLentityImage"
->>>>>>> 5429911882d0d499ab3c44edf15021e5fe4891b6
+        "goTo2": "data17"
     },
     "data11": {
         "text": "Read the note?",
@@ -198,8 +189,6 @@
         "responses": 2,
         "response1Choice": "Explore Room",
         "response1": "The room is filled with rubble and debris, and the walls are lined with monitors, humming electrical equipment, and many panels full of switches and diagrams.",
-<<<<<<< HEAD
-<<<<<<< HEAD
         "response2Choice": "Explore Electronics",
         "response2": "The electronic equipment lining the room is full of panels of switches, monitors, keyboards, buttons, diagrams, and server racks.  You notice one monitor specifically still functioning and on, with a keyboard in front of it.",
         "goTo1": "data19",
@@ -208,28 +197,11 @@
     },
     "data19": {
         "text": "The electronic equipment lining the room is full of panels of switches, monitors, keyboards, buttons, diagrams, and server racks.  You notice one monitor specifically still functioning and on, with a keyboard in front of it.",
-=======
         "response2Choice": "Explore electronics",
         "response2": "The electronic equipment lining the room is full of panels of switches, monitors, keyboards, buttons, diagrams, and server racks.  You notice one monitor specifically still on and functioning, with a keyboard in front of it.",
         "goTo1": "data19",
         "goTo2": "data20",
         "image2": "monitorImage"
-    },
-    "data19": {
-        "text": "The electronic equipment lining the room is full of panels of switches, monitors, keyboards, buttons, diagrams, and server racks.  You notice one monitor specifically still on and functioning, with a keyboard in front of it.",
->>>>>>> 5429911882d0d499ab3c44edf15021e5fe4891b6
-=======
-        "response2Choice": "Explore electronics",
-        "response2": "The electronic equipment lining the room is full of panels of switches, monitors, keyboards, buttons, diagrams, and server racks.  You notice one monitor specifically still on and functioning, with a keyboard in front of it.",
-        "goTo1": "data19",
-        "goTo2": "data20",
-        "image2": "monitorImage"
-    },
-    "data19": {
-        "text": "The electronic equipment lining the room is full of panels of switches, monitors, keyboards, buttons, diagrams, and server racks.  You notice one monitor specifically still on and functioning, with a keyboard in front of it.",
->>>>>>> 5429911882d0d499ab3c44edf15021e5fe4891b6
-        "goTo1": "data20",
-        "image1": "monitorImage"
     },
     "data20": {
         "text": "Investigate monitor?",
