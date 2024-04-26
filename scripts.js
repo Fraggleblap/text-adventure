@@ -45,7 +45,8 @@ function changeDial(tempPath, previousResponse, image) {
         width: 50%;
         border-radius: 3px;
         border-color: blueviolet;
-        border-style: solid;`
+        border-style: solid;
+        margin-bottom: 2%`
 
         document.getElementById(`imageBox`).src = `/images/`+image+`.png`
     } else { // otherwise remove styling so there is no random purple bar
