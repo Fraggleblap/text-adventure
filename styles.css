@@ -20,7 +20,7 @@ header {
     color: white;
     justify-content: center;
     align-self: center;
-    font-size: 2.5em;
+    font-size: 2.5em; 
 }
 
 button {
@@ -45,4 +45,18 @@ button:hover {
 #textArea {
     font-size: 1.6em;
     margin: 5%
+}
+
+
+
+@media only screen and (max-width:880px) {
+    #choiceBox {
+        font-size: 20px;
+    }
+    #textArea {
+        font-size: 18px;
+    }
+    .wrapper {
+        margin-top: 1.5em;
+    }
 }
