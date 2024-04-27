@@ -16,7 +16,7 @@
         "responses": 2,
         "response1Choice": "Call them back",
         "response1": "You call them back. They introduce themself as the founder of the space agency. They mention that they are in a bit of a dilemma. Concerned, you ask about the details of the situation. You find out that a communications blackout has occurred and that they need you to investigate the area. They say that they have gotten recommendations about you being one of the best detectives in your line of work. You consider the opportunity, but remain skeptical about the task. Should you go to the space station?",
-        "response2Choice": "Ignore your mind and continue with your day.",
+        "response2Choice": "Ignore it your and continue with your day.",
         "response2": "Boring Ending",
         "goTo1": "data2",
         "goTo2": "data1.6",
